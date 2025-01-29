@@ -122,6 +122,9 @@ project_root/
 Pull requests are welcome! If you find issues or have suggestions, feel free to open an issue.
 
 ---
+Images
+https://github.com/AnushaGaneshan06/DjangoFullAuth-main/blob/e6a19bea45504a0cd4b778a4a0e69c382bf19da5/images/Edit%20profile%20page.png
+----
 
 ## 🚀 Happy Coding! 🎉
 
