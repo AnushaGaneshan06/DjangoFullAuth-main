@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edit Profile</title>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+    </head>
+    <body>
+        <div class="center">
+            <h1>Edit Profile</h1>
+
+            {% if messages %}
+            {% for message in messages %}
+            <p
+                {% if message.tags == 'error' %}
+                style="color: red;"
+                {% else %}
+                style="color: green;"
+                {% endif %}>
+                {{ message }}
+            </p>
+            {% endfor %}
+            {% endif %}
+
+            <form method="POST">
+                {% csrf_token %}
+
+                <!-- First Name Field -->
+                <div class="txt_field">
+                    <input type="text" name="first_name"
+                        value="{{ user.first_name }}" required>
+                    <span></span>
+                    <label>First Name</label>
+                </div>
+
+                <!-- Last Name Field -->
+                <div class="txt_field">
+                    <input type="text" name="last_name"
+                        value="{{ user.last_name }}" required>
+                    <span></span>
+                    <label>Last Name</label>
+                </div>
+
+                <!-- Username Field -->
+                <div class="txt_field">
+                    <input type="text" name="username"
+                        value="{{ user.username }}" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+
+                <!-- Email Field -->
+                <div class="txt_field">
+                    <input type="email" name="email" value="{{ user.email }}"
+                        required>
+                    <span></span>
+                    <label>Email</label>
+                </div>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Save Changes">
+
+                <!-- Cancel Link -->
+                <div class="signup_link">
+                    <a href="{% url 'home' %}">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

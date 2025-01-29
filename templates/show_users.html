@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Registered Users</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background:linear-gradient(120deg, #1e608b, #261030e3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(235, 233, 233, 0.231);
+            width: 90%;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #98b7c0;
+        }
+    .buttons{
+        margin-top: 20px;
+        margin-left: 43%;
+    }
+
+    .buttons a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #ffffff;
+        transition: background-color 0.3s;
+    }
+
+    .home-btn {
+        background-color: #4CAF50;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>All Registered Users</h1>
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                </tr>
+                {% for user in users %}
+                <tr>
+                    <td>{{ user.first_name }}</td>
+                    <td>{{ user.last_name }}</td>
+                    <td>{{ user.username }}</td>
+                    <td>{{ user.email }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4">No users found.</td>
+                </tr>
+                {% endfor %}
+            </table>
+            <div class="buttons">
+                <a href="{% url 'home' %}" class="home-btn">Home Page</a>
+            </div>
+        </div>
+    </body>
+</html>

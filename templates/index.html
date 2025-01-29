@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background:linear-gradient(120deg, #1e608b, #261030e3);
+        /* background-color: rgb(3, 65, 65); */
+        
+    }
+
+    .container {
+        width: 700px;
+        height: 60vh;
+        background-color:white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.571);
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        color: #01212a;
+        margin-bottom: 35px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 35px;
+    }
+
+    table, th, td {
+        border: 1px solid #01212a;
+    }
+
+    th, td {
+        padding: 8px 12px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    td {
+        color: #0a1011;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between; /* This will space out the buttons evenly */
+    }
+
+    .buttons a {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #ffffff;
+        transition: background-color 0.3s;
+    }
+
+    .edit-btn {
+        background-color: #4CAF50;
+    }
+
+    .edit-btn:hover {
+        background-color: #45a049;
+    }
+
+    .delete-btn {
+        background-color: #f44336;
+    }
+
+    .delete-btn:hover {
+        background-color: #d32f2f;
+    }
+
+    .register-btn {
+        background-color: #2196F3;
+    }
+
+    .register-btn:hover {
+        background-color: #1976D2;
+    }
+
+    .logout-link {
+        margin-top: 20px;
+        display: block;
+        text-decoration: none;
+        color: dodgerblue;
+        font-size: 14px;
+        
+    }
+    .register-link {
+        margin-top: 10px;
+        display: block;
+        text-decoration: none;
+        color: dodgerblue;
+        font-size: 14px;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to Your Profile</h1>
+
+            {% if user.is_authenticated %}
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <td>{{ user.first_name }}</td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td>{{ user.last_name }}</td>
+                </tr>
+                <tr>
+                    <th>Username</th>
+                    <td>{{ user.username }}</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>{{ user.email }}</td>
+                </tr>
+            </table>
+
+            <div class="buttons">
+                <!-- Edit Button -->
+                <a href="{% url 'edit_profile' %}" class="edit-btn">Edit</a>
+
+                <!-- Register Button (if you want it here) -->
+                <a href="{% url 'register' %}" class="register-btn">Register</a>
+                <a href="{% url 'show_users' %}"
+                    class="register-btn">Show Users</a>
+
+                <!-- Delete Button -->
+                <a href="{% url 'delete_account' %}"
+                    class="delete-btn">Delete</a>
+            </div>
+
+            <a href="{% url 'logout' %}" class="logout-link">Logout</a>
+
+            {% else %}
+            <p>Hello, Guest!</p>
+            <p><a href="{% url 'login' %}">Login</a> or <a
+                    href="{% url 'register' %}">Register</a> to access your
+                profile.</p>
+
+            <!-- Register button added here -->
+            <div class="buttons">
+                <a href="{% url 'register' %}" class="register-btn">Register</a>
+            </div>
+
+            {% endif %}
+        </div>
+    </body>
+</html>
