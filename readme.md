@@ -123,7 +123,7 @@ Pull requests are welcome! If you find issues or have suggestions, feel free to 
 
 ---
 Images
-https://github.com/AnushaGaneshan06/DjangoFullAuth-main/blob/e6a19bea45504a0cd4b778a4a0e69c382bf19da5/images/Edit%20profile%20page.png
+![Edit Profile Page](https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/e6a19bea45504a0cd4b778a4a0e69c382bf19da5/images/Edit%20profile%20page.png)
 ----
 
 ## 🚀 Happy Coding! 🎉
