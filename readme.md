@@ -80,12 +80,14 @@ Admins can:
 - ➕ **Add New Users:** Register new users through the admin panel.
 
 🔄 Refresh the Database
-del db.sqlite3
-python manage.py shell  
-python manage.py migrate
-python manage.py flush
-python manage.py createsuperuser
-python manage.py runserver
+```bash
+    del db.sqlite3
+    python manage.py shell  
+    python manage.py migrate
+    python manage.py flush
+    python manage.py createsuperuser
+    python manage.py runserver
+```
 ---
 
 ## 📂 Project Structure
