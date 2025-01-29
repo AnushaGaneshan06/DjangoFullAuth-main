@@ -125,26 +125,14 @@ Pull requests are welcome! If you find issues or have suggestions, feel free to 
 
 ## Screenshots
 
-### Register Page
-<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Register%20page.png" width="400" height="300">
-
-### Login Page
-<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/login%20page.png" width="400" height="300">
-
-### Welcome Profile Page
-<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Welcome%20profile%20page.png" width="400" height="300">
-
-### User Information
-<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/all%20user%20info.png" width="400" height="300">
-
-### Edit Profile Page
-<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Edit%20profile%20page.png" width="400" height="300">
-
-### Delete Page
-<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/delete%20page.png" width="400" height="300">
-
-### Resent Page
-<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/resent%20page.png" width="400" height="300">
-
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Register%20page.png" width="600" height="300">
+  <img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/login%20page.png" width="600" height="300">
+  <img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Welcome%20profile%20page.png" width="600" height="300">
+  <img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/all%20user%20info.png" width="600" height="300">
+  <img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Edit%20profile%20page.png" width="600" height="300">
+  <img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/delete%20page.png" width="600" height="300">
+  <img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/resent%20page.png" width="600" height="300">
+</div>
 ## 🚀 Happy Coding! 🎉
 
