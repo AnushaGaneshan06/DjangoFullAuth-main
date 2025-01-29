@@ -125,17 +125,18 @@ Pull requests are welcome! If you find issues or have suggestions, feel free to 
 ## Screenshots
 
 ### Register Page, Login Page, Welcome Profile Page
-![Register Page](https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Register%20page.png)
-![Login Page](https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/login%20page.png)
-![Welcome Profile Page](https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Welcome%20profile%20page.png)
+<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Register%20page.png" width="300" height="300">
+<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/login%20page.png" width="300" height="300">
+<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Welcome%20profile%20page.png" width="300" height="300">
 
 ### User Information, Edit Profile Page, Delete Page
-![User Info](https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/all%20user%20info.png)
-![Edit Profile Page](https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Edit%20profile%20page.png)
-![Delete Page](https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/delete%20page.png)
+<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/all%20user%20info.png" width="300" height="300">
+<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/Edit%20profile%20page.png" width="300" height="300">
+<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/delete%20page.png" width="300" height="300">
 
 ### Resent Page
-![Resent Page](https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/resent%20page.png)----
+<img src="https://raw.githubusercontent.com/AnushaGaneshan06/DjangoFullAuth-main/89f45aab212ca7e26fcfee7f487ce3481d567d61/images/resent%20page.png" width="300" height="300">
+
 
 ## 🚀 Happy Coding! 🎉
 
